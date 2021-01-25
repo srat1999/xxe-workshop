@@ -1,3 +1,4 @@
+# java xxe 环境，以备不时之需
 
 ## Advanced XXE Workshop
 
@@ -16,3 +17,6 @@ First start by cloning the repository or [exporting the repository to a zip arch
 ```
 git clone https://github.com/GoSecure/xxe-workshop.git
 ```
+
+## update
+ 编译了第一个springboot项目，添加相关测试代码。

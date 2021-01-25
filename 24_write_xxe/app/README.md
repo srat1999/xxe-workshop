@@ -1,26 +1,4 @@
-## Requirements
 
-Here are the tools required to run the web application.
-
- - Java
- - Gradle
- - Docker
- - Docker-compose
-
-
-## Build instructions
-
-To compile the sample application run the following Gradle command.
-
-```
-chmod +x gradlew
-./gradlew build
-```
-
-## Launching Docker image
-
-To run the application use the docker-compose configuration file.
-
-```
-docker-compose up
-```
+gradle buildDocker
+docker rm books1
+docker run --name books1 -p 8001:8001 books

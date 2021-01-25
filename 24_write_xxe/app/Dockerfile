@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-java
+FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
 
 RUN sh -c 'touch /app.jar && mkdir -p /data/templates && mkdir /secret'
